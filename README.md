@@ -2,21 +2,21 @@
 
   <!-- 1. HERO BANNER -->
   <p align="center">
-      <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/hero.svg?v=3" alt="Jaykishan Das - Full Stack Web Developer &amp; AI Builder" width="940" />
+      <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/hero.svg?v=4" alt="Jaykishan Das - Full Stack Web Developer &amp; AI Builder" width="940" />
   </p>
 
   <br/>
 
   <!-- 2. ABOUT & CAPABILITIES & HOBBIES -->
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/about-life.svg?v=3" alt="About Jaykishan Das - Capabilities &amp; Hobbies" width="940" />
+    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/about-life.svg?v=4" alt="About Jaykishan Das - Capabilities &amp; Hobbies" width="940" />
   </p>
 
   <br/>
 
   <!-- 3. ORBITAL TECH STACK GALAXY -->
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/stack.svg?v=3" alt="Jaykishan Das - Orbital Tech Stack &amp; Skill Ecosystem" width="940" />
+    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/stack.svg?v=4" alt="Jaykishan Das - Orbital Tech Stack &amp; Skill Ecosystem" width="940" />
   </p>
 
   <br/>
@@ -24,7 +24,7 @@
   <!-- 4. 3D CONTRIBUTION CITY (NIGHT VIEW) -->
   <p align="center">
     <a href="https://github.com/Itzjay169">
-      <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/profile-3d-contrib/profile-night-view.svg?v=3" alt="Jaykishan's 3D Night-View Contribution City" width="940" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/sample/profile-night-view.svg';" />
+      <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/profile-3d-contrib/profile-night-view.svg?v=4" alt="Jaykishan's 3D Night-View Contribution City" width="940" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/sample/profile-night-view.svg';" />
     </a>
   </p>
 
@@ -32,7 +32,7 @@
 
   <!-- 5. ID BADGE & LIVE DASHBOARD -->
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/id-dashboard.svg?v=3" alt="Jaykishan Das - Engineering ID Badge &amp; Live Dashboard" width="940" />
+    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/id-dashboard.svg?v=4" alt="Jaykishan Das - Engineering ID Badge &amp; Live Dashboard" width="940" />
   </p>
 
   <br/>
@@ -61,7 +61,7 @@
   <!-- 6. CHARACTER CONNECT & LINKS -->
   <p align="center">
     <a href="https://github.com/Itzjay169">
-      <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/connect.svg?v=3" alt="Connect with Jaykishan Das" width="940" />
+      <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/connect.svg?v=4" alt="Connect with Jaykishan Das" width="940" />
     </a>
   </p>
 
