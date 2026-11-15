@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 380" width="100%" height="100%">
+  <defs>
+    <style>
+      .city-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .city-mono { font-family: SFMono-Regular, Consolas, monospace; }
+      .block-shimmer { animation: cityPulse 3s ease-in-out infinite alternate; }
+      @keyframes cityPulse {
+        0% { opacity: 0.85; filter: drop-shadow(0 0 2px #22d3ee); }
+        100% { opacity: 1; filter: drop-shadow(0 0 8px #a78bfa); }
+      }
+    </style>
+    <linearGradient id="city_border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.4" />
+    </linearGradient>
+    <linearGradient id="tower_cyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="100%" stop-color="#0e7490" />
+    </linearGradient>
+    <linearGradient id="tower_violet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c4b5fd" />
+      <stop offset="100%" stop-color="#6d28d9" />
+    </linearGradient>
+    <linearGradient id="tower_pink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="100%" stop-color="#be185d" />
+    </linearGradient>
+    <linearGradient id="tower_emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+
+  <!-- Midnight Base Card -->
+  <rect width="938" height="378" x="1" y="1" rx="20" fill="#0d0e16" stroke="url(#city_border)" stroke-width="1.5" />
+
+  <!-- Header -->
+  <g transform="translate(40, 36)">
+    <text x="0" y="0" class="city-mono" font-size="11.5" fill="#22d3ee" letter-spacing="1">CONTRIBUTION GRAPH 3D // NIGHT CITY VIEW</text>
+    <text x="0" y="24" class="city-font" font-size="20" fill="#f8fafc" font-weight="700">Code Activity &amp; Commit Metropolis</text>
+    <text x="610" y="22" class="city-mono" font-size="11" fill="#94a3b8">REFRESHED DAILY VIA GITHUB ACTIONS</text>
+  </g>
+
+  <!-- Isometric Ground Grid -->
+  <g transform="translate(470, 240) scale(1.15, 0.65) rotate(45)" opacity="0.35" stroke="#1f243d" stroke-width="0.8">
+    <!-- Grid lines -->
+    <path d="M -180 -180 L 180 -180 M -180 -140 L 180 -140 M -180 -100 L 180 -100 M -180 -60 L 180 -60 M -180 -20 L 180 -20 M -180 20 L 180 20 M -180 60 L 180 60 M -180 100 L 180 100 M -180 140 L 180 140 M -180 180 L 180 180" />
+    <path d="M -180 -180 L -180 180 M -140 -180 L -140 180 M -100 -180 L -100 180 M -60 -180 L -60 180 M -20 -180 L -20 180 M 20 -180 L 20 180 M 60 -180 L 60 180 M 100 -180 L 100 180 M 140 -180 L 140 180 M 180 -180 L 180 180" />
+  </g>
+
+  <!-- Isometric Skyscrapers / 3D Contribution Towers (Cityscape) -->
+  <g transform="translate(470, 255)">
+    <!-- Helper macro for 3D isometric block at (iso_x, iso_y, height, color_grad) -->
+    <!-- Tower 1 -->
+    <g transform="translate(-240, 20)">
+      <polygon points="0,-40 22,-28 0,-16 -22,-28" fill="#a7f3d0" />
+      <polygon points="-22,-28 0,-16 0,20 -22,8" fill="#059669" />
+      <polygon points="0,-16 22,-28 22,8 0,20" fill="#10b981" />
+    </g>
+
+    <!-- Tower 2 -->
+    <g transform="translate(-190, -10)">
+      <polygon points="0,-75 22,-63 0,-51 -22,-63" fill="#67e8f9" />
+      <polygon points="-22,-63 0,-51 0,15 -22,3" fill="#0284c7" />
+      <polygon points="0,-51 22,-63 22,3 0,15" fill="#0ea5e9" />
+    </g>
+
+    <!-- Tower 3 (High tower) -->
+    <g transform="translate(-140, -45)">
+      <polygon points="0,-115 22,-103 0,-91 -22,-103" fill="#c4b5fd" />
+      <polygon points="-22,-103 0,-91 0,10 -22,-2" fill="#6d28d9" />
+      <polygon points="0,-91 22,-103 22,-2 0,10" fill="#8b5cf6" />
+    </g>
+
+    <!-- Tower 4 -->
+    <g transform="translate(-90, -20)">
+      <polygon points="0,-85 22,-73 0,-61 -22,-73" fill="#f472b6" />
+      <polygon points="-22,-73 0,-61 0,10 -22,-2" fill="#be185d" />
+      <polygon points="0,-61 22,-73 22,-2 0,10" fill="#ec4899" />
+    </g>
+
+    <!-- Tower 5 (Center Giant) -->
+    <g transform="translate(-40, -65)" class="block-shimmer">
+      <polygon points="0,-140 24,-126 0,-112 -24,-126" fill="#ffffff" />
+      <polygon points="-24,-126 0,-112 0,10 -24,-4" fill="#0284c7" />
+      <polygon points="0,-112 24,-126 24,-4 0,10" fill="#22d3ee" />
+    </g>
+
+    <!-- Tower 6 -->
+    <g transform="translate(15, -40)">
+      <polygon points="0,-105 22,-93 0,-81 -22,-93" fill="#e9d5ff" />
+      <polygon points="-22,-93 0,-81 0,15 -22,3" fill="#7c3aed" />
+      <polygon points="0,-81 22,-93 22,3 0,15" fill="#a78bfa" />
+    </g>
+
+    <!-- Tower 7 (Center High) -->
+    <g transform="translate(65, -80)" class="block-shimmer">
+      <polygon points="0,-155 24,-141 0,-127 -24,-141" fill="#fbcfe8" />
+      <polygon points="-24,-141 0,-127 0,5 -24,-9" fill="#9d174d" />
+      <polygon points="0,-127 24,-141 24,-9 0,5" fill="#f472b6" />
+    </g>
+
+    <!-- Tower 8 -->
+    <g transform="translate(120, -35)">
+      <polygon points="0,-95 22,-83 0,-71 -22,-83" fill="#67e8f9" />
+      <polygon points="-22,-83 0,-71 0,15 -22,3" fill="#0369a1" />
+      <polygon points="0,-71 22,-83 22,3 0,15" fill="#38bdf8" />
+    </g>
+
+    <!-- Tower 9 -->
+    <g transform="translate(170, -15)">
+      <polygon points="0,-70 22,-58 0,-46 -22,-58" fill="#a7f3d0" />
+      <polygon points="-22,-58 0,-46 0,20 -22,8" fill="#047857" />
+      <polygon points="0,-46 22,-58 22,8 0,20" fill="#10b981" />
+    </g>
+
+    <!-- Tower 10 -->
+    <g transform="translate(225, 10)">
+      <polygon points="0,-50 22,-38 0,-26 -22,-38" fill="#c4b5fd" />
+      <polygon points="-22,-38 0,-26 0,20 -22,8" fill="#6d28d9" />
+      <polygon points="0,-26 22,-38 22,8 0,20" fill="#8b5cf6" />
+    </g>
+
+    <!-- Secondary Foreground Clusters -->
+    <g transform="translate(-160, 45)">
+      <polygon points="0,-35 18,-25 0,-15 -18,-25" fill="#6ee7b7" />
+      <polygon points="-18,-25 0,-15 0,15 -18,5" fill="#059669" />
+      <polygon points="0,-15 18,-25 18,5 0,15" fill="#10b981" />
+    </g>
+    <g transform="translate(-60, 30)">
+      <polygon points="0,-45 18,-35 0,-25 -18,-35" fill="#67e8f9" />
+      <polygon points="-18,-35 0,-25 0,15 -18,5" fill="#0284c7" />
+      <polygon points="0,-25 18,-35 18,5 0,15" fill="#22d3ee" />
+    </g>
+    <g transform="translate(40, 25)">
+      <polygon points="0,-55 18,-45 0,-35 -18,-45" fill="#f472b6" />
+      <polygon points="-18,-45 0,-35 0,15 -18,5" fill="#9d174d" />
+      <polygon points="0,-35 18,-45 18,5 0,15" fill="#f472b6" />
+    </g>
+    <g transform="translate(140, 40)">
+      <polygon points="0,-40 18,-30 0,-20 -18,-30" fill="#c4b5fd" />
+      <polygon points="-18,-30 0,-20 0,15 -18,5" fill="#6d28d9" />
+      <polygon points="0,-20 18,-30 18,5 0,15" fill="#a78bfa" />
+    </g>
+  </g>
+
+  <!-- Legend in Footer -->
+  <g transform="translate(40, 340)">
+    <text x="0" y="12" class="city-mono" font-size="10.5" fill="#64748b">ACTIVITY DENSITY:</text>
+    <rect x="130" y="2" width="12" height="12" rx="2" fill="#1e2238" />
+    <text x="148" y="12" class="city-mono" font-size="10" fill="#64748b">NONE</text>
+    <rect x="195" y="2" width="12" height="12" rx="2" fill="#10b981" />
+    <text x="213" y="12" class="city-mono" font-size="10" fill="#34d399">NORMAL</text>
+    <rect x="278" y="2" width="12" height="12" rx="2" fill="#22d3ee" />
+    <text x="296" y="12" class="city-mono" font-size="10" fill="#22d3ee">HIGH</text>
+    <rect x="340" y="2" width="12" height="12" rx="2" fill="#a78bfa" />
+    <text x="358" y="12" class="city-mono" font-size="10" fill="#a78bfa">INTENSE</text>
+    <rect x="420" y="2" width="12" height="12" rx="2" fill="#f472b6" />
+    <text x="438" y="12" class="city-mono" font-size="10" fill="#f472b6">MAX STREAK</text>
+  </g>
+</svg>
+
