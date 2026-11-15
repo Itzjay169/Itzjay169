@@ -72,6 +72,7 @@
   <sub>⚡ Crafted with precision by <b>Jaykishan Das</b> • Engineered with declarative pure SVG &amp; SMIL animations • Zero external network dependencies.</sub>
 
 </div>
+<br><br>
 
 
 
