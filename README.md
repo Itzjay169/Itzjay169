@@ -2,30 +2,30 @@
 
   <!-- 1. HERO VIEWFIELDER BANNER -->
   <a href="https://github.com/Itzjay169">
-    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/hero.svg?v=1" alt="Jaykishan Das - Full Stack Web Developer &amp; AI Builder" width="100%" />
+    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/hero.svg?v=2" alt="Jaykishan Das - Full Stack Web Developer &amp; AI Builder" width="100%" />
   </a>
 
   <br/><br/>
 
   <!-- 2. ABOUT & CAPABILITIES & HOBBIES -->
-  <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/about-life.svg?v=1" alt="About Jaykishan Das - Capabilities &amp; Hobbies" width="100%" />
+  <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/about-life.svg?v=2" alt="About Jaykishan Das - Capabilities &amp; Hobbies" width="100%" />
 
   <br/><br/>
 
   <!-- 3. ORBITAL TECH STACK GALAXY -->
-  <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/stack.svg?v=1" alt="Jaykishan Das - Orbital Tech Stack &amp; Skill Ecosystem" width="100%" />
+  <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/stack.svg?v=2" alt="Jaykishan Das - Orbital Tech Stack &amp; Skill Ecosystem" width="100%" />
 
   <br/><br/>
 
   <!-- 4. 3D CONTRIBUTION CITY (NIGHT VIEW) -->
   <a href="https://github.com/Itzjay169">
-    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/profile-3d-contrib/profile-night-view.svg?v=1" alt="Jaykishan's 3D Night-View Contribution City" width="100%" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/sample/profile-night-view.svg';" />
+    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/profile-3d-contrib/profile-night-view.svg?v=2" alt="Jaykishan's 3D Night-View Contribution City" width="100%" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/sample/profile-night-view.svg';" />
   </a>
 
   <br/><br/>
 
   <!-- 5. ID BADGE & LIVE DASHBOARD -->
-  <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/id-dashboard.svg?v=1" alt="Jaykishan Das - Engineering ID Badge &amp; Live Dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/id-dashboard.svg?v=2" alt="Jaykishan Das - Engineering ID Badge &amp; Live Dashboard" width="100%" />
 
   <br/><br/>
 
@@ -52,7 +52,7 @@
 
   <!-- 6. CHARACTER CONNECT & LINKS -->
   <a href="https://github.com/Itzjay169">
-    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/connect.svg?v=1" alt="Connect with Jaykishan Das" width="100%" />
+    <img src="https://raw.githubusercontent.com/Itzjay169/Itzjay169/main/connect.svg?v=2" alt="Connect with Jaykishan Das" width="100%" />
   </a>
 
   <br/><br/>
