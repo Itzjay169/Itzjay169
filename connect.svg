@@ -66,6 +66,12 @@
       <feGaussianBlur stdDeviation="8" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+    <linearGradient id="cn_insta_grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="35%" stop-color="#ec4899" />
+      <stop offset="70%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
   </defs>
 
   <!-- Background Base (#0d0e16) -->
@@ -133,22 +139,24 @@
       </g>
     </a>
 
-    <!-- Link Card 3: Company (Vexora Technology) -->
-    <a href="https://github.com/Itzjay169" target="_blank">
+    <!-- Link Card 3: Instagram (@jay_dev._._) -->
+    <a href="https://www.instagram.com/jay_dev._._?obrf=MTh1Z3B0eHo3NHdveQ%3D%3D" target="_blank">
       <g class="cn-link-card" transform="translate(10, 200)">
         <rect width="600" height="66" rx="12" fill="#0f111f" stroke="#1c2035" stroke-width="1" />
-        <!-- Brand Icon Tile: Company -->
-        <rect x="12" y="11" width="44" height="44" rx="10" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.3" stroke-width="1" />
-        <!-- Building / Spark Icon -->
-        <path d="M 26 41 L 26 23 L 42 23 L 42 41 M 31 28 L 37 28 M 31 33 L 37 33" fill="none" stroke="#f472b6" stroke-width="1.8" stroke-linecap="round" />
+        <!-- Brand Icon Tile: Instagram -->
+        <rect x="12" y="11" width="44" height="44" rx="10" fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-opacity="0.3" stroke-width="1" />
+        <!-- Instagram Camera Icon -->
+        <rect x="23" y="22" width="22" height="22" rx="6" fill="none" stroke="url(#cn_insta_grad)" stroke-width="2" />
+        <circle cx="34" cy="33" r="5" fill="none" stroke="url(#cn_insta_grad)" stroke-width="2" />
+        <circle cx="40" cy="27" r="1.3" fill="#f43f5e" />
         <!-- Titles -->
-        <text x="68" y="29" class="cn-font-display" font-size="14.5" fill="#f8fafc">Vexora Technology</text>
-        <text x="210" y="28.5" class="cn-font-mono" font-size="11" fill="#f472b6">FULL STACK DEVELOPER</text>
-        <text x="68" y="47" class="cn-font-sans" font-size="12" fill="#94a3b8">Crafting production-ready client applications &amp; scalable infrastructure</text>
+        <text x="68" y="29" class="cn-font-display" font-size="14.5" fill="#f8fafc">Instagram</text>
+        <text x="150" y="28.5" class="cn-font-mono" font-size="11" fill="#f472b6">@jay_dev._._</text>
+        <text x="68" y="47" class="cn-font-sans" font-size="12" fill="#94a3b8">Behind the scenes, design experiments, dev journey &amp; life updates</text>
         <!-- Nudging Arrow -->
         <g class="cn-arrow-nudge" transform="translate(554, 34)">
-          <circle cx="0" cy="0" r="14" fill="#181c30" stroke="#f472b6" stroke-opacity="0.4" stroke-width="1" />
-          <path d="M -4 0 L 3 0 M 0 -3 L 3 0 L 0 3" fill="none" stroke="#f472b6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          <circle cx="0" cy="0" r="14" fill="#181c30" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1" />
+          <path d="M -4 0 L 3 0 M 0 -3 L 3 0 L 0 3" fill="none" stroke="#ec4899" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
         </g>
       </g>
     </a>
